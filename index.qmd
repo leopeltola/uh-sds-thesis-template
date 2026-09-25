@@ -1,14 +1,14 @@
 ---
-title: "The Architecture of Social Networks in Data Science Pipelines"
-subtitle: "A Computational Approach to Large-Scale Latent Behavioral Graphs"
+title: "Social Data Science Thesis Template: Main Title"
+subtitle: "Subtitle Goes Here"
 author: "Your Name"
 date: "June 2026"
 location: "Helsinki, Finland"
 major-track: "Social Data Science"
-supervisor: "Dr. Jane Doe & Prof. John Smith"
-keywords: "Social Graphs, Python Data Pipeline, High Performance Computing, Typst Layout"
-abstract: "This thesis investigates the architecture of large-scale social networks reconstructed from data science pipelines. Using computational methods, it maps latent behavioral graphs and evaluates their structural properties at scale."
-logo-path: "_extensions/uh-sds-thesis-template/logo.png"
+supervisor: "Dr. Jane Doe & Dr. John Smith"
+keywords: "SDS, template"
+abstract: "This thesis template for University of Helsinki Social Data Science track uses Quarto with the Typst rendering backend."
+logo-path: "logo.png"
 
 bibliography: references.bib
 ---

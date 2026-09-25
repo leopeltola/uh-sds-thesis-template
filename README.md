@@ -19,7 +19,7 @@ quarto add leopeltola/uh-sds-thesis-template
 
 ## Using
 
-See `template.qmd` for an example, and `_quarto.yml` for the format options.
+See `index.qmd` for an example, and `_quarto.yml` for the format options.
 Chapters live in `chapters/` and are pulled into the main file with the
 `include` shortcode.
 
