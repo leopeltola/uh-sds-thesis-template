@@ -2,7 +2,7 @@ project:
   type: default
   output-dir: output
   render: 
-    - template.qmd
+    - index.qmd
 
 format:
   uh-sds-thesis-template-typst:
