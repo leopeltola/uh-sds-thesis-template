@@ -1,0 +1,62 @@
+---
+title: "The Architecture of Social Networks in Data Science Pipelines"
+subtitle: "A Computational Approach to Large-Scale Latent Behavioral Graphs"
+author: "Your Name"
+date: "June 2026"
+location: "Helsinki, Finland"
+major-track: "Social Data Science"
+supervisor: "Dr. Jane Doe & Prof. John Smith"
+keywords: "Social Graphs, Python Data Pipeline, High Performance Computing, Typst Layout"
+abstract: "This thesis investigates the architecture of large-scale social networks reconstructed from data science pipelines. Using computational methods, it maps latent behavioral graphs and evaluates their structural properties at scale."
+logo-path: "_extensions/uh-sds-thesis-template/logo.png"
+
+bibliography: references.bib
+---
+
+{{< include chapters/01-introduction.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include chapters/02-methods.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include chapters/03-results.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include chapters/04-discussion.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include chapters/05-conclusion.qmd >}}
+
+{{< pagebreak >}}
+
+
+# References {.unnumbered}
+
+::: {#refs}
+
+:::
+
+{{< pagebreak >}}
+
+```{=typst}
+// Special formatting for appendix headers
+#counter(heading).update(0)
+
+#set heading(numbering: "A.1")
+
+#show heading.where(level: 1): it => {
+  if it.numbering != none {
+    block(above: 1.8em, below: 1.2em)[
+      Appendix #counter(heading).display(it.numbering) #it.body
+    ]
+  } else {
+    it
+  }
+}
+```
+
+{{< include chapters/appendix-a.qmd >}}

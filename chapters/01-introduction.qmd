@@ -1,0 +1,8 @@
+# Introduction
+
+This is the introduction chapter. Because it is pulled into the master file, 
+it will automatically format using the Typst template layout engine.
+
+## Problem Statement
+
+Subheadings work normally @Einstein1905.

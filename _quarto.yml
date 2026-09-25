@@ -1,0 +1,14 @@
+project:
+  type: default
+  output-dir: output
+  render: 
+    - template.qmd
+
+format:
+  uh-sds-thesis-template-typst:
+    section-numbering: "1.1.1"
+    toc: true
+    toc-title: "Table of Contents"
+    toc-depth: 3
+    citeproc: true
+    # csl: https://www.zotero.org/styles/apa

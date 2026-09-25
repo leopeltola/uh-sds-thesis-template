@@ -1,0 +1,13 @@
+# Quarto
+.quarto/
+*_files/
+
+# Rendered output
+output/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+/.quarto/
+**/*.quarto_ipynb
